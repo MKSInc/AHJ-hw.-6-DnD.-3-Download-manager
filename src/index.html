@@ -15,5 +15,33 @@
 <body>
   <h1>6. Домашнее задание к лекции «Работа с файлами, DnD»</h1>
   <h2>6.3 Download Manager (задача со звёздочкой)</h2>
+  <div class="container">
+    <div> <!-- div - flex элемент, для того чтобы выровнять контейнер с таблицей и абзацем по центру,
+     не указывая ширину контейнера -->
+      <div class="files-table-wrap">
+        <table data-id="files-table" class="files-table">
+          <caption class="files-table__caption">Available Files (without sms and registration):</caption>
+          <tr data-id="file-row" class="files-table__row">
+            <td data-id="file-name">Storage Standard</td>
+            <td class="files-table__col2">310 Kb</td>
+            <td><a data-id="file-link" data-link="file1">Download</a></td>
+          </tr>
+
+          <tr data-id="file-row" class="files-table__row">
+            <td data-id="file-name">Streams Standard</td>
+            <td class="files-table__col2">1.7 Mb</td>
+            <td><a data-id="file-link" data-link="file2">Download</a></td>
+          </tr>
+
+          <tr data-id="file-row" class="files-table__row">
+            <td data-id="file-name">XMLHttpRequest Standard</td>
+            <td class="files-table__col2">833 Kb</td>
+            <td><a data-id="file-link" data-link="file3">Download</a></td>
+          </tr>
+        </table>
+      </div>
+      <p>You've already downloaded: <span data-id="total-files-size">0</span> MB</p>
+    </div>
+  </div>
 </body>
 </html>

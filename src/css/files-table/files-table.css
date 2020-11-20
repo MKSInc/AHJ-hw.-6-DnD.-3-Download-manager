@@ -1,0 +1,21 @@
+.files-table-wrap {
+  border: 1px solid gray;
+  border-radius: 20px;
+
+  margin: 0 auto 20px auto;
+  padding: 20px 20px 10px 20px;
+}
+
+.files-table__caption {
+  font-size: 110%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.files-table td {
+  padding-bottom: 10px;
+}
+
+.files-table__col2 {
+  padding: 0 30px;
+}
